@@ -1,0 +1,67 @@
+user 
+- read
+- bon komponen 
+- bon monitoring
+
+admin 
+- read
+- approve
+- input barang -> ada 2
+- log masuk 
+- log keluar barang 
+- bisa menambah data users dan melihat siapa saja user dan admin, bisa edit dan hapus users juga.
+
+
+katalog komponen
+- gambar 
+
+log masuk barang (dibarengkan dari barang baru dan restock)
+- tanggal 
+- siapa admin input (otomatis terisi dari loginnya)
+- kode komponen
+- nama komponen
+- jumlah 
+- lokasi simpan 
+- sumber barang
+
+
+bon 
+- nama pengebon menggunakan login (nomor induk), data users -> admin bisa tambah user
+- seksi pengebon -> iot saja 
+- tujuan pengebonan -> nyatet 
+- sub inventory & locator -> [ICT-EXP] Gudang ICT di pusat | IOT
+- Locator -> otomatis iot 
+- Barang -> satu kolom (bisa search code dan nama) -> ada button plus Ketika ingin bon lebih dari satu barang.
+ 
+=> OTOMATIS MASUK KE REDIRECT KE BON MONITORING	
+
+
+input barang (admin)
+- input barang baru 
+- restok barang  
+
+
+log masuk 
+- menampilkan semua isi dari input barang
+
+log keluar barang 
+- menampilkan semua bon yang berhasil di approve
+
+
+
+
+bon monitoring
+- sebelum masuk ke halaman ini ada list Riwayat bon, baik itu yang sudah di approve maupun belum.
+- nanti kaya gambaran shoppe monitoring kurir
+- ada 3 fase -> Waktu bon, menunggu approve, selesai 
+- dibawahnya ada detail waktunya 
+ 
+=> 07:08 | 13/5/2025 | Waktu Pengebonan oleh user1
+=> 07:08 | 13/5/2025 | Menunggu Approve oleh admin
+=> 07:08 | 13/5/2025 | Selesai Approve oleh admin1
+
+
+
+
+
+
